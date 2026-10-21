@@ -11,3 +11,12 @@
 @media(max-width:960px){.hero{gap:35px}.hero-poster{height:420px}.poster-orb{width:260px;height:260px}.about{gap:32px}.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.navlinks{gap:15px}.navlinks a{font-size:12px}}
 @media(max-width:680px){.shell{width:calc(100% - 30px)}.navbar{min-height:94px;align-items:flex-start;justify-content:center;flex-direction:column;gap:6px;padding:11px 0}.brand-icon{width:34px;height:34px;border-radius:10px}.navlinks{gap:16px;flex-wrap:wrap}.navlinks a{font-size:11px}.navlinks .navtool{border:0;padding:0}.hero{grid-template-columns:1fr;padding:45px 0 52px;gap:38px}h1{font-size:clamp(47px,12vw,62px)}.hero-poster{height:350px;transform:none;box-shadow:9px 12px 0 #e8e4f9}.poster-orb{width:250px;height:250px;top:42px}.poster-message{font-size:45px;bottom:54px}.hero-counters{margin-top:25px}.ribbon{justify-content:flex-start;column-gap:9px}.section{padding:62px 0}.about{grid-template-columns:1fr;gap:20px}.avatar{height:158px;width:158px}.section-title,.learning-top{display:block}.section-title>p,.learning-top>p{margin-top:12px}.toolbar{flex-direction:column}.searchbox{max-width:100%}.sortbox{justify-content:flex-end}.hint{display:none}.project-grid{grid-template-columns:1fr}.card-thumb{height:230px}.learning{padding:27px 20px;margin-bottom:58px}.skills-list{grid-template-columns:1fr;gap:16px;margin-top:25px}.footer-inner{align-items:flex-start;flex-direction:column}.dialog-shell{padding:20px}.media-grid{grid-template-columns:1fr}.dialog-foot .btn{flex:1}.poster-orb .orb-inner{font-size:95px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* Portfolio uczestników kursu — jeden odnośnik w każdym wierszu. */
+.participants{border-top:1px solid var(--line)}
+.participant-links{list-style:none;padding:0;margin:28px 0 0;max-width:520px}
+.participant-links li+li{border-top:1px solid var(--line)}
+.participant-links a{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:48px;padding:10px 14px;border-radius:8px;color:var(--purple);text-decoration:none;font-weight:650}
+.participant-links a:hover,.participant-links a:focus-visible{background:var(--pale);text-decoration:underline;text-underline-offset:4px}
+.participant-links a span{font-weight:400}
+
